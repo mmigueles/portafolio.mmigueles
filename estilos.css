@@ -1,0 +1,113 @@
+/*index*************************************************/
+html{
+    background-color: rgba(0, 0, 0, 0.788);
+}
+.contenedor{
+    background-color: rgba(0, 0, 0, 0.788);
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.89);
+    margin: 5px;
+    padding: 15px;
+}
+.navegador{
+    background-color: rgba(84, 64, 194, 0.473);
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1.5rem 3.5rem;
+    box-shadow: 0 3px 5px rgba(247, 247, 247, 0.534);
+}
+a{
+    color: white;
+}
+.presentacion{
+    margin: 30px;
+    padding: 40px;
+}
+h1, h2{
+    font-family: sans-serif;
+    text-align: center;
+}
+.titulo{
+    font-size: xx-large;
+    padding: 20px;
+}
+.texto{
+    padding: 20px;
+} 
+.boton{
+    background-color: rgba(124, 104, 240, 0.397);;
+    font-size: large;
+    font-family: sans-serif;
+    color: rgba(219, 216, 216, 0.856);
+    border-radius: 0.5em;
+    box-shadow: 0 3px 10px;
+    margin: 30px;
+    padding: 8px;
+}
+.boton-portafolio{
+    color: rgb(255, 255, 255);
+    
+}
+.contenido{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contenedor-contacto{
+    margin: 50px;
+    text-align: center;
+}
+.icono-redes{
+    width: 30px;
+    height: 30px;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    padding: 3px;
+    margin: 2px;
+}
+
+/****Index1********************************************************/
+
+.contenedor-habilidades{
+    margin: 100px;
+    padding: 80px;
+    text-align: center;
+}
+.icono{
+    width: 7.875rem;
+    height: 7.25rem;
+    background-color: rgb(231, 228, 228);
+    border-radius: 11px;
+    box-shadow: 0 3px 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+/*****Index2**********************************************/
+
+.contenedor-proyectos{
+    margin: 80px;
+    padding: 50px;
+    text-align: left;
+}
+
+.imagen1{
+    width: 20.875rem;
+    height: 16.25rem;
+    background-color: rgb(231, 228, 228);
+    border-radius: 20px;
+    box-shadow: 0 3px 15px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.titulo{
+    font-family: sans-serif;
+}
