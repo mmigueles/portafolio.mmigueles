@@ -1,7 +1,9 @@
-/*index*************************************************/
+/* INDEX *************************************************/
 html{
     background-color: rgba(0, 0, 0, 0.788);
 }
+
+/* CONTENEDOR *******************************************/
 .contenedor{
     background-color: rgba(0, 0, 0, 0.788);
     font-family: sans-serif;
@@ -24,7 +26,9 @@ html{
 a{
     color: white;
 }
+/* PRESENTACION ******************************************/
 .presentacion{
+    display: flex;
     margin: 30px;
     padding: 40px;
 }
@@ -33,47 +37,33 @@ h1, h2{
     text-align: center;
 }
 .titulo{
-    font-size: xx-large;
-    padding: 20px;
+    padding-bottom: 20px;
 }
 .texto{
     padding: 20px;
-} 
-.boton{
-    background-color: rgba(124, 104, 240, 0.397);;
-    font-size: large;
-    font-family: sans-serif;
-    color: rgba(219, 216, 216, 0.856);
-    border-radius: 0.5em;
-    box-shadow: 0 3px 10px;
-    margin: 30px;
-    padding: 8px;
-}
-.boton-portafolio{
-    color: rgb(255, 255, 255);
-    
 }
 .contenido{
-    color: rgb(255, 255, 255);
     text-align: center;
-    margin: 20px;
-    padding: 20px;
+    width: 25rem;
+    padding-top: 5rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px;
+}
+.contenedor-imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    max-width: 68.75rem;
+    margin: auto;
+}
+.imagen{
+    height: 30.5rem;
+    width: 39.5rem;
+    border-radius: 10px;
 }
 
-.contenedor-contacto{
-    margin: 50px;
-    text-align: center;
-}
-.icono-redes{
-    width: 30px;
-    height: 30px;
-    border-radius: 11px;
-    box-shadow: 0 3px 10px;
-    padding: 3px;
-    margin: 2px;
-}
-
-/****Index1********************************************************/
+/* HABILIDADES ********************************************************/
 
 .contenedor-habilidades{
     margin: 100px;
@@ -83,14 +73,14 @@ h1, h2{
 .icono{
     width: 7.875rem;
     height: 7.25rem;
-    background-color: rgb(231, 228, 228);
+    background-color: rgb(255, 255, 255);
     border-radius: 11px;
     box-shadow: 0 3px 10px;
     padding: 20px;
     margin: 10px;
 }
 
-/*****Index2**********************************************/
+/* PROYECTO **********************************************/
 
 .contenedor-proyectos{
     margin: 80px;
@@ -111,3 +101,70 @@ h1, h2{
 .titulo{
     font-family: sans-serif;
 }
+
+/* CONTACTO *********************************************/
+
+.contacto h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.contenedor-formulario-contacto{
+    max-width: 40.75rem;
+    margin: 0 auto;
+    padding: 0.938rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px;
+    position: relative;
+}
+.contenedor-formulario-contacto label {
+    line-height: 2.7em;
+    font-weight: bold;
+    color:rgba(109, 90, 219, 0.829);
+}
+.contenedor-formulario-contacto textarea {
+    min-height: 6.25rem;
+    font-size: 14px;
+}
+.contenedor-formulario-contacto .input-field {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    border: 3px outset rgba(84, 64, 194, 0.897);
+    font-size: 0.875rem;
+    outline: none;
+}
+.input-field::placeholder {
+    padding: 0.5rem;
+    color: rgba(84, 64, 194, 0.897);
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 2px solid rgba(84, 64, 194, 0.897);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.submit-btn:hover {
+    background-color: rgba(94, 76, 199, 0.623);
+    border: 2px solid rgba(84, 64, 194, 0.897);
+    cursor: pointer;
+}
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 20%;
+}
+.icono-redes{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 40px;
+}
+
