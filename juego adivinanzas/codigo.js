@@ -16,7 +16,7 @@ let botonReiniciar;
 
 botonEnviar.addEventListener('click', controlar);
 
-    function controlar() {      
+    function controlar() {
         let usuario = Number(campo.value);
     
         if (Contador === 1) {
